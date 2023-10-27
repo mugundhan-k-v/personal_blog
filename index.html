@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- linking css file -->
+  <link rel="stylesheet" href="style.css">
+  <!-- bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark navbarScroll">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mugundhan.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" id="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-link" href="#portfolio">Projects
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-link" href="Resume_mugundhan.pdf" target="_blank">Resume</a>
+                    </li>   
+                    <li class="nav-item">
+                        <button id="theme-toggle" class="round-button">
+                            <i class="fas fa-sun"></i>
+                            <i class="fas fa-moon"></i>
+                        </button>                        
+                    </li>    
+                </ul>
+                
+            </div>
+        </div>
+    </nav>
+    <!-- main banner -->
+    <section class="bgimage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                <h2 class="hero_title">Hi, it's me Mugundhan</h2>
+                <p class="hero_desc">I am a WebDeveloper</p>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- about section-->
+    <section id="about">
+        <div class="container mt-4 pt-4" >
+            <h1 class="text-center">About Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-4">
+                    <img src="images/profile.jpg" class= "imageAboutPage" alt="">
+                </div>
+                <div class="col-lg-8" style="text-align: justify;">
+                    <p> Hello, I'm Mugundhan, a dedicated student at Bannari Amman Institute of Technology with a fervent passion for web development. I believe in the power of technology to shape the future, and I'm committed to honing my skills to contribute meaningfully to the digital landscape.
+                    </p><br>
+                    <strong>Education</strong>
+                    <p>
+                        I'm currently pursuing Bachelor of Technology in Information Technology at Bannari Amman Institute of Technology. My academic journey has not only provided me with a strong foundation in technical knowledge but also instilled in me a deep curiosity and a desire for continuous learning.
+                    </p><br>
+                    <strong>Passion</strong>
+                    <p>
+                        Web development is where my heart lies. I thrive on the creative process of bringing ideas to life through code. From crafting visually appealing interfaces to ensuring seamless functionality, I find joy in every aspect of building websites.
+                    </p>
+                    <a href="Resume_mugundhan.pdf" class="btn btn-success" download="Mugundhan_Resume.pdf">Download Resume <i class="fas fa-download"></i></a>
+                </div>
+            </div>
+    </section>
+    <!-- skills section -->
+<section id="skills">
+    <div class="container mt-4 pt-4">
+        <h1 class="text-center">Skills</h1>
+        <div class="row mt-4">
+            <div class="col-md-6 mt-4">
+                <h3><i class="fab fa-figma"></i> Figma</h3>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress-percent">90%</div>
+            </div>
+            <div class="col-md-6 mt-4">
+                <h3><i class="fas fa-code"></i> HTML</h3>
+                <div class="progress">
+                    
+                    <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress-percent">90%</div>
+            </div>
+            <div class="col-md-6 mt-4">
+                <h3><i class="fab fa-css3-alt"></i> CSS</h3>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress-percent">80%</div>
+            </div>
+            <div class="col-md-6 mt-4">
+                <h3><i class="fab fa-js"></i> Java Script</h3>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress-percent">70%</div>
+            </div>
+            <div class="col-md-6 mt-4">
+                <h3><i class="fab fa-cuttlefish"></i> C</h3>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress-percent">70%</div>
+            </div>
+            <div class="col-md-6 mt-4">
+                <h3><i class="fab fa-python"></i> Python</h3>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress-percent">50%</div>
+            </div>
+            <div class="col-md-6 mt-4">
+                <h3><i class="fab fa-"></i> QT</h3>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress-percent">40%</div>
+            </div>
+            <div class="col-md-6 mt-4">
+                <h3><i class="fab fa-php"></i> PHP</h3>
+                <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 30%;" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div class="progress-percent">30%</div>
+        </div>
+    </div>
+</section>
+    <!-- portfolio section-->
+    <section id="portfolio">
+        <div class="container mt-3">
+            <h1 class="text-center">Projects</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/edu.PNG"id="spi" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Eduactional Webpage</h4>
+                            <p class="card-text">This webpage consists of six courses and a chatbot which is integrated with openAI</p>
+                            <div class="text-center">
+                                <a href="https://mugundhan-k-v.github.io/educational_website/index.html" target="_blank" class="btn btn-success">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/quiz.PNG" id="spi" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Quiz App</h4>
+                            <p class="card-text">Quiz Application contains leader board and asks random question from openDB</p>
+                            <div class="text-center">
+                                <a href="https://mugundhan-k-v.github.io/quiz-application/" target="_blank" class="btn btn-success">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/news.PNG" id="spi" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">News Explorer</h4>
+                            <p class="card-text">This application displays articles from diffrent webpages</p>
+                            <div class="text-center">
+                                <a href="./news/index.html" target="_blank" class="btn btn-success">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/dash.PNG" alt="Card image" id="spi"style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Dashorard Design</h4>
+                            <p class="card-text">I have designed a Dashorard for an ecommerce wibsite.</p>
+                            <div class="text-center">
+                                <a href="https://www.figma.com/file/nkT0bvsgpYLFY4OLzMyLwd/Dashboard-Design?type=design&node-id=0-1&mode=design" target="_blank" class="btn btn-success">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/P5.jpg" id="spi" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Pathfinder</h4>
+                            <p class="card-text">We can find the best possible way to solve a maze using different algorithms.</p>
+                            <div class="text-center">
+                                <a href="" class="btn btn-success">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/spice1.png" id="spi" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Spicehub</h4>
+                            <p class="card-text">It is static ecommerce web page design using Bootstrap </p>
+                            <div class="text-center">
+                                <a href="https://github.com/mugundhan-k-v/The-spice-House/tree/main/freshbites" target="_blank" class="btn btn-success">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- contact section-->
+    <section id="contact">
+        <div class="container mt-3 contactContent">
+            <h1 class="text-center">Contact Me</h1>
+            <div class="row mt-4">
+                <div class="col-lg-6">
+                    <!-- to edit google map goto https://www.embed-map.com type your location, generate html code and copy the html  -->
+                    <div style="max-width:100%;overflow:hidden;color:red;width:500px;height:500px;">
+                        <div id="embedded-map-display" style="height:100%; width:100%;max-width:100%;">
+                            <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Bannari+Amman+Institute+of+Technology,+Post,+Sathyamangalam,+Tamil+Nadu,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                    </div><a class="the-googlemap-enabler" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="authmaps-data">premium bootstrap themes</a>
+                    <style>#embedded-map-display img{max-height:none;max-width:none!important;background:none!important;}</style></div>
+                    
+                </div>
+                
+                <div class="col-lg-6">
+                    <!-- form fields -->
+                    <form action="https://formspree.io/f/mpzgkbwg"
+                    method="POST">
+                        <div class="input-box">
+                          <div class="input-field">
+                            <input type="text" class="form-control form-control-lg" name="Name" placeholder="Name" required>
+                            <span class="focus"></span>
+                          </div>
+                        </div>
+                        <div class="input-box">
+                          <div class="input-field">
+                            <input type="number" class="form-control mt-3" name="Mobile Number" placeholder="Your Mobile Number" required>
+                            <span class="focus"></span>
+                          </div>
+                              <div class="input-field">
+                                <input type="email" class="form-control mt-3" name="Email address" placeholder="Email Address" required>
+                              </div>
+                        </div>
+                        <div class="mb-3 mt-3">
+                            <textarea class="form-control" rows="5" id="message" name="message" placeholder="Project Details"></textarea>
+                            <span class="focus"></span>
+                        </div>
+                        <div class="btn-box btns">
+                          <button type="submit" class="btn btn-success mt-3" id="contactBtn">Submit</button>
+                        </div>
+                      </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer section-->
+    <footer id="footer">
+        <div class="container-fluid">
+            <!-- social media icons -->
+            <div class="social-icons mt-4">
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/mugundhan-k-v-bb8882277" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/mugundhan-k-v" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- load javascript after loading all html content -->
+    <script src="script/script.js"></script>
+
+</body>
+
+</html>
