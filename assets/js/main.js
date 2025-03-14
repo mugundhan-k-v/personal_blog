@@ -1,4 +1,23 @@
 
+
+document.addEventListener('DOMContentLoaded', function() {
+  emailjs.init("D5n7doxg9tnf-tOR6");
+
+  document.getElementById('contactBtn').addEventListener('click', function(event) {
+    event.preventDefault();
+
+    emailjs.sendForm('service_2xc3u53', 'template_5vt0hiv', '.php-email-form')
+      .then(function(response) {
+        console.log('SUCCESS!', response.status, response.text);
+        alert('Message sent successfully!');
+        document.querySelector('.php-email-form').reset();
+      }, function(error) {
+        console.log('FAILED...', error);
+        alert('Failed to send message. Please try again later.');
+      });
+  });
+});
+
 (function() {
   "use strict";
 
