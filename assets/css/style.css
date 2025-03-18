@@ -6,16 +6,25 @@ body {
   background: transparent;
 }
 
+#bgVideo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
-  background-size: cover;
+  background: #040404;
   left: 0;
   right: 0;
   top: 0;
   height: 100vh;
-  z-index: -1;
+  z-index: -2;
 }
 
 @media (min-width: 1024px) {
