@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function() {
   document.getElementById('contactBtn').addEventListener('click', function(event) {
     event.preventDefault();
 
-    emailjs.sendForm('service_2xc3u53', 'template_5vt0hiv', '.php-email-form')
+    emailjs.sendForm('service_p8542rg', 'template_tcp9rke', '.php-email-form')
       .then(function(response) {
         console.log('SUCCESS!', response.status, response.text);
         alert('Message sent successfully!');
