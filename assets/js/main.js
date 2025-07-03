@@ -1,7 +1,7 @@
 
 
 document.addEventListener('DOMContentLoaded', function() {
-  emailjs.init("D5n7doxg9tnf-tOR6");
+  emailjs.init("FmhAHjdHqo9nWP6gh");
 
   document.getElementById('contactBtn').addEventListener('click', function(event) {
     event.preventDefault();
